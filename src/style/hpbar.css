@@ -1,0 +1,42 @@
+.bar {
+  border: solid;
+  width: 80%;
+  height: 8vh;
+  background-color: yellow;
+  display: flex;
+  text-align: center;
+  margin-top: 10px;
+}
+.bar-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.hero-name {
+  width: 80%;
+  height: 10vh;
+  color: yellow;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding-top: 5px;
+}
+.hero-name h2 {
+  font-size: 40px;
+  font-family: monospace;
+}
+.text-KO {
+  font-size: 20px;
+  width: 15%;
+  color: red;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hp {
+  background-color: yellow;
+  width: 10%;
+}

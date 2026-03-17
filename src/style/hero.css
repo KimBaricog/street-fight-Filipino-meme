@@ -1,0 +1,21 @@
+html,
+body {
+  height: 100%; /* make sure html & body fill the viewport */
+  margin: 0;
+  /* remove default margin */
+}
+
+body {
+  background-image: url("https://res.cloudinary.com/dgwmeeszw/image/upload/v1773555310/Manila_Philippines-Picsart-AiImageEnhancer_lggzwj.jpg");
+  background-size: cover; /* make the image cover the whole area */
+  background-position: center; /* center the image */
+  background-repeat: no-repeat; /* don’t repeat the image */
+}
+.hero-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
